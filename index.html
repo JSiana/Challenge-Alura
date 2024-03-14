@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>ENCRIPTADOR</h1>
+    </header>
+    <main>
+        <ul class="cuadros-de-texto">
+            <img src="img/Logo.jpg" alt="">
+            <p>No ingrese mayúsculas ni caracteres especiales</p>
+            <li>
+                <div class="cifrar">
+                    <textarea name="texto" class="texto-cifrar" id="texto" cols="30" rows="15">escriba un texto</textarea>
+
+                </div>
+                <button class="boton-cifrar" type="button" onclick="cifrar()">Cifrar</button>
+            </li>           
+            
+            <li>
+                <div class="cifrado">
+                    <textarea name="texto-cifrado" class="texto-cifrado" id="texto-cifrado" cols="30" rows="15">escriba un texto</textarea>
+
+                    
+            
+                    <button class="boton-decifrar" type="button" onclick="decifrar()">Decifrar</button>
+                
+                </div>
+            </li> 
+            <h2 id="tMensaje">Ningun texto cifrado</h2>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy Derechos reservados Joaquin Siana 2024</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
